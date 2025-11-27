@@ -29,22 +29,26 @@ int main()
     for (int i = 1; i < N_stone_bricks; i++)
     {
         int diff = stairs[i] - stairs[i - 1];
-
+        if(diff == 0) continue;
         if (diff > 0 && diff <= K_milimetres)
         {
             current_stairs++;
         }
         else
         {
+           if (current_stairs > S_count_stairs)
+            {
+                S_count_stairs = current_stairs;
+            }
             current_stairs = 1;
         }
+
+    }
 
         if (current_stairs > S_count_stairs)
         {
             S_count_stairs = current_stairs;
         }
-    }
-
     cout << S_count_stairs << endl;
 
     return 0;
