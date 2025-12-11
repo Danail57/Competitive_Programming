@@ -7,7 +7,7 @@ using namespace std;
 /*Започваме от p*p, защото всички по-малки, кратни на p,
 вече са били елиминирани от по-малките прости числа.*/
 
-/*vector<int> sieve(int n)
+vector<int> sieve(int n)
 	{
 		vector<bool> prime(n + 1, true);
 		
