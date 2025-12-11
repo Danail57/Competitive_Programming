@@ -12,3 +12,10 @@ https://cs50.harvard.edu/python/
 
 
 https://www.geeksforgeeks.org/python/python-exercises-practice-questions-and-solutions/
+
+
+
+https://www.geeksforgeeks.org/dsa/sieve-of-eratosthenes/
+
+
+https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html
